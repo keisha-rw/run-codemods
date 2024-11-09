@@ -1,0 +1,17 @@
+{
+  "name": "@keisha/mods-cli",
+  "version": "1.0.0",
+  "author": "Keisha Hoeksema",
+  "bin": {
+    "run-codemods": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "update-button": "jscodeshift -t ./src/updatebutton.ts"
+  },
+  "dependencies": {
+    "picocolors": "1.1.0",
+    "commander": "12.1.0",
+    "jscodeshift": "17.0.0"
+  }
+}
